@@ -22,7 +22,7 @@ import kotlinx.coroutines.launch
 @Composable
 fun NoteScreen(viewModel: MainViewModel) {
     val notes: List<NoteModel> by viewModel
-        .noteNotInTrash
+        .notesNotInTrash
         .observeAsState(listOf())
     val scaffoldState: ScaffoldState = rememberScaffoldState()
     val coroutineScope = rememberCoroutineScope()
@@ -49,19 +49,17 @@ fun NoteScreen(viewModel: MainViewModel) {
                 }
             )
         },
+        //Code
         content = {
-            if (notes.isNotEmpty()){
+            if (notes.isNotEmpty()) {
                 NotesList(
-                    notes = listOf(
-                        NoteModel(1, "Note1", "Content 1", false),
-                        NoteModel(1, "Note2", "Content 2", false),
-                        NoteModel(1, "Note3", "Content 3", true)
-                    ),
-                    onNoteCheckedChange = {},
-                    onNoteClick = {},
+                    notes = notes ,
+                    onNoteCheckedChange = { viewModel.onNoteCheckedChange(it) },
+                    onNoteClick = { viewModel.onNoteClick(it) },
                 )
             }
         }
+
     )
 }
 
@@ -70,15 +68,19 @@ private fun NotesList(
     notes: List<NoteModel>,
     onNoteCheckedChange: (NoteModel) -> Unit,
     onNoteClick: (NoteModel) -> Unit,
+    isSelected: Boolean
 ) {
     LazyColumn {
         items(count = notes.size) { noteIndex ->
             val note = notes[noteIndex]
-            Note(
-                note = note,
-                onNoteCheckedChange,
-                onNoteClick,
-            )
+//            Note(
+//                note = note,
+//                onNoteCheckedChange = {
+//                    onNoteCheckedChange
+//                },
+//                onNoteClick = onNoteClick,
+//                isSelected =
+//            )
         }
     }
 

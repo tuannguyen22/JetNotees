@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a3bf9af5-5a7a-4a54-8749-f3f253fd2188" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/JetNote/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/JetNotesApplication.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/SplashActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/data/database/AppDatabase.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/data/database/dao/ColorDao.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/data/database/dao/NoteDao.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/data/database/dbmapper/DbMapper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/data/database/dbmapper/DbMapperImpl.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/data/database/model/ColorDbModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/data/database/model/NoteDbModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/data/repository/Repository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/data/repository/RepositoryImpl.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/dependencyinjection/DependencyInjector.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/domain/model/ColorModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/domain/model/NoteModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/routing/JetNotesRouter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/theme/Color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/theme/Theme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/ui/component/AppDrawer.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/ui/component/Note.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/ui/component/NoteColor.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/ui/component/TopAppBar.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/ui/screens/NoteScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/ui/screens/SaveNoteScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/util/Extensions.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/viewmodel/MainViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/java/com/example/jetnote/viewmodel/MainViewModelFactory.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/drawable/ic_baseline_color_lens_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/drawable/ic_baseline_restore_from_trash_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/layout/activity_splash.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/values/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNote/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/JetNotes/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/java/com/example/jetfundamentals/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/java/com/example/jetfundamentals/app/JetFundamentalsApp.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/java/com/example/jetfundamentals/router/BackButtonHandler.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/java/com/example/jetfundamentals/router/JetFundamentalsRouter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/java/com/example/jetfundamentals/screens/AlertDialogScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/java/com/example/jetfundamentals/screens/BoxScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/java/com/example/jetfundamentals/screens/ButtonsScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/java/com/example/jetfundamentals/screens/ColumnScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/java/com/example/jetfundamentals/screens/ListsScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/java/com/example/jetfundamentals/screens/NavigationScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/java/com/example/jetfundamentals/screens/ProgressIndicatorsScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/java/com/example/jetfundamentals/screens/RowScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/java/com/example/jetfundamentals/screens/ScaffoldScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/java/com/example/jetfundamentals/screens/ScrollingScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/java/com/example/jetfundamentals/screens/SurfaceScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/java/com/example/jetfundamentals/screens/TextFieldScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/java/com/example/jetfundamentals/screens/TextScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/drawable/advanced_architecture_android.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/drawable/android_aprentice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/drawable/combine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/drawable/core_data.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/drawable/ios_apprentice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/drawable/kotlin_aprentice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/drawable/kotlin_coroutines.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/drawable/rx_swift.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/drawable/saving_data_android.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/drawable/splash_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/drawable/swift_apprentice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/values/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/values/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/values/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/values/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/values/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/values/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/values/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/values/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/values/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/values/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/values/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/values/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetFundamentals/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/java/com/example/jetnote/JetNotesApplication.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/java/com/example/jetnote/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/java/com/example/jetnote/SplashActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/java/com/example/jetnote/data/database/AppDatabase.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/java/com/example/jetnote/data/database/dao/ColorDao.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/java/com/example/jetnote/data/database/dao/NoteDao.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/java/com/example/jetnote/data/database/dbmapper/DbMapper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/java/com/example/jetnote/data/database/dbmapper/DbMapperImpl.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/java/com/example/jetnote/data/database/model/ColorDbModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/java/com/example/jetnote/data/database/model/NoteDbModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/java/com/example/jetnote/data/repository/Repository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/java/com/example/jetnote/data/repository/RepositoryImpl.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/java/com/example/jetnote/dependencyinjection/DependencyInjector.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/java/com/example/jetnote/domain/model/ColorModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/java/com/example/jetnote/domain/model/NoteModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/java/com/example/jetnote/routing/JetNotesRouter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/java/com/example/jetnote/theme/Color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/java/com/example/jetnote/theme/Theme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/java/com/example/jetnote/util/Extensions.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/java/com/example/jetnote/viewmodel/MainViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/java/com/example/jetnote/viewmodel/MainViewModelFactory.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/drawable/ic_baseline_color_lens_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/drawable/ic_baseline_restore_from_trash_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/layout/activity_splash.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/values/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JetNotes/android-class-materials/JetNote/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/JetNotes" />
+  </component>
+  <component name="ProjectId" id="207onwCth9cTCvcJNHnkscP49QV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JetNotes/JetNote" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3bf9af5-5a7a-4a54-8749-f3f253fd2188" name="Default Changelist" comment="" />
+      <created>1635405158067</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635405158067</updated>
+    </task>
+    <servers />
+  </component>
+</project>
