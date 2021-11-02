@@ -126,7 +126,7 @@ fun AppDrawer(
         ScreenNavigationButton(icon = Icons.Filled.Delete, label = "Draft", isSelected = true){}
         Divider(color = MaterialTheme.colors.onSurface.copy(alpha = .2f))
         Row {
-            Text(text = "Enble Dark Theme")
+            Text(text = "Enable Dark Theme")
         }
         Row {
             LightDarkThemeItem()
